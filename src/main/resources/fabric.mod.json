@@ -1,0 +1,36 @@
+{
+    "schemaVersion":  1,
+    "id":  "catr-dupe-radar",
+    "version":  "${version}",
+    "name":  "Dupe-Radar",
+    "description":  "Shows matched Dupe Databases plugins with server (AUTISM CLIENT)",
+    "authors":  ["Catr"],
+    "contact": {
+      "sources": "https://github.com/ernetalu/dupe-radar"
+    },
+    "license": "MIT",
+    "icon": "icon.png",
+
+    "custom":  {
+      "autism:color":  "80,220,120",
+      "modmenu":  {"parent":  {"id":  "autism"}}
+    },
+
+    "environment":  "client",
+    "entrypoints":  {
+      "client":  [
+        "com.duperadar.addon.DupeRadarInit"
+      ],
+      "autism":  [
+        "com.duperadar.addon.DupeRadarAddon"
+      ]
+    },
+
+    "depends": {
+      "java":  ">=25",
+      "minecraft":  "${mc_compat}",
+      "fabricloader":  ">=0.18.4",
+      "fabric-api":  "*",
+      "autism":  ">=2.3"
+    }
+}
