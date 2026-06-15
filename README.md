@@ -1,6 +1,7 @@
 # Dupe Radar Addon for Autism Client
 
 An addon for the [Autism Client](https://github.com/AutismDevelopment/Autism-Client) that scans server plugins against known dupe databases. **(Basically it shows you possible dupes in the server)**
+*Note: This is already added to main client but you can still use this addon without any problem.*
 
 **Disclaimer:** Use this mod at your own risk. The maintainers are not responsible for any bans or other consequences resulting from the use of this software. 
 
